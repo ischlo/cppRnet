@@ -7,6 +7,7 @@
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 ![](https://github.com/ischlo/cppRosm/actions/workflows/pkgdown.yaml/badge.svg)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16913432.svg)](https://doi.org/10.5281/zenodo.16932477)
 <!-- badges: end -->
 
 ## Introduction
@@ -26,18 +27,27 @@ necessary compiled code dependencies come with the package, facilitating
 it’s use.
 
 <!-- This section is under development, it will be a quick setup guide for the compiled dependencies. -->
+
 <!-- While ultimately, this package is easy to use, there are some steps to do in order to set up the dependencies that rely on compiled code. This section covers the minimum setup that should get you going on Mac.  -->
+
 <!-- First, we need to verify that the `C++` compilers are installed and up to date. Start by opening a terminal and typing the following command:  -->
+
 <!-- ``` bash  -->
+
 <!-- which g++-13 -->
+
 <!-- ``` -->
+
 <!-- if this results in an error, then consider installing the package `gcc` from *homebrew*. Once installed, open a new terminal an try again. This time, a path should appear, something like `/opt/homebrew/bin/g++-13`. -->
 
 ## Installation
 
 <!-- which needs to be installed on the machine. For more details on installation refer to the official website. On mac, it is recommended to install using [`brew`](https://brew.sh) with the following terminal command:  -->
+
 <!-- ``` bash -->
+
 <!-- brew install libosmium -->
+
 <!-- ``` -->
 
 Install the package from github:
@@ -76,7 +86,7 @@ of choice in R. If the data gets bigger, `osmextract` could be the right
 choice. This package aims to be both user friendly and flexible, but
 also high performing.
 
-| language | package                                                                                                                                               |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| R        | [`osmdata`](https://docs.ropensci.org/osmdata/),[`osmextract`](https://docs.ropensci.org/osmextract/)                                                 |
-| python   | [`pydriosm`](https://pypi.org/project/pydriosm/), [`pyrosm`](https://pyrosm.readthedocs.io/en/latest/#), [`osmium`](https://pypi.org/project/osmium/) |
+| language | package |
+|----|----|
+| R | [`osmdata`](https://docs.ropensci.org/osmdata/),[`osmextract`](https://docs.ropensci.org/osmextract/) |
+| python | [`pydriosm`](https://pypi.org/project/pydriosm/), [`pyrosm`](https://pyrosm.readthedocs.io/en/latest/#), [`osmium`](https://pypi.org/project/osmium/) |

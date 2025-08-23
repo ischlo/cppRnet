@@ -9,6 +9,7 @@ output: github_document
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 ![](https://github.com/ischlo/cppRosm/actions/workflows/pkgdown.yaml/badge.svg)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16913432.svg)](https://doi.org/10.5281/zenodo.16932477)
 <!-- badges: end -->
 
 ## Introduction
