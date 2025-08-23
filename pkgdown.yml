@@ -1,10 +1,10 @@
 pandoc: 3.1.11
-pkgdown: 2.1.1
+pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   data_schema: data_schema.html
   road_networks: road_networks.html
-last_built: 2024-11-23T15:54Z
+last_built: 2025-08-23T11:00Z
 urls:
   reference: https://ischlo.github.io/cppRosm/reference
   article: https://ischlo.github.io/cppRosm/articles
